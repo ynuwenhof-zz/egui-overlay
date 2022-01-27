@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+eframe = "0.16.0"
 
 [dependencies.clap]
 version = "3.0.13"
