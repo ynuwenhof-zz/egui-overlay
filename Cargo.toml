@@ -8,11 +8,11 @@ readme = "README.md"
 license = "MIT"
 
 [dependencies]
-eframe = "0.16.0"
-
-[dependencies.clap]
-version = "3.0.13"
-features = ["derive"]
+egui = "0.16.1"
+glium = "0.31.0"
+anyhow = "1.0.53"
+egui_glium = "0.16.0"
+raw-window-handle = "0.4.2"
 
 [dependencies.windows]
 version = "0.30.0"
