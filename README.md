@@ -11,7 +11,3 @@ Get the target window handle and pass it in as an argument.
 ```
 
 Toggle the GUI with the **right shift** key.
-
-## TODO
-
-- Hide terminal window
