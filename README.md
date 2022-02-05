@@ -4,14 +4,14 @@ Work in progress and proof of concept external [egui](https://crates.io/crates/e
 
 ## Usage
 
-Get the target window handle and supply it via the target argument.
+Get the target window handle and pass it in as an argument.
 
 ```
-./egui-overlay -t 0x27071A
+./egui-overlay 0x27071A
 ```
+
+Toggle the GUI with the **right shift** key.
 
 ## TODO
 
-- Pass through input to underlying window
-- Toggle overlay via hotkey
 - Hide terminal window
